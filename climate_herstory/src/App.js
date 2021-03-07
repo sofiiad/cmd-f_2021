@@ -12,16 +12,9 @@ import './App.css';
 import Home from './components/Home';
 import Story from './components/Story';
 import Intro from './components/Intro';
-import IndustrialRev from './components/history/IndustrialRev';
+import GPS from './components/history/GPS';
 import Pesticides from './components/history/Pesticides';
-
-// Creating path routes
-// const routes = {
-//   "/": () => <Home />,
-//   "/intro": () => <Intro />,
-//   "/story": () => <Story />,
-// };
-
+import Steak from './components/history/Steak';
 //Handling path routes
 function App() {
   // const routeResult = useRoutes(routes)
@@ -39,9 +32,14 @@ function App() {
           <Route path="/story">
             <Story />
         </Route>
-        
-        <Route path="/pesticides">
+        <Route path="/gladys">
+            <GPS />
+        </Route>
+        <Route path="/rachel">
             <Pesticides />
+        </Route>
+        <Route path="/greta">
+            <Steak />
         </Route>
         </Switch>
         </Router>

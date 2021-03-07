@@ -14,7 +14,7 @@ export default function Intro() {
     //Setting background image
     <div className="container-fluid intro-bgimage">
       <img className="woman-img" src={ammal} alt="Ammal Janaki Image"/>
-      <Typing className="ammal-text">
+      <Typing className="ammal-text" speed={5}>
         <span>Hello to all curious people! 
         My name is Janaki Ammal and I am an Indian botanist. 
         I am most famous for my work producing hybrid crosses of sugarcanes and cytogenetics, 

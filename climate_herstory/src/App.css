@@ -61,6 +61,22 @@
   background-size: cover;
 }
 
+.story-bgimage {
+  background: url("./img/story_bg.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.story-img {
+  width: 100vh;
+  display: block;
+  padding-top: 18vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .woman-img {
   width: 70vh;
   position: absolute;
@@ -114,6 +130,18 @@
   right: 10%;
 }
 
+.ammal-text {
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Helvetica, sans-serif;
+
+  width: 85vh;
+
+  position: absolute;
+  right: 10%;
+  top: 5%;
+}
+
 .rachel-btn {
   background-color: #00cad1;
   border: none;
@@ -138,18 +166,6 @@
   background-color: #008d92;
 }
 
-.ammal-text {
-  color: white;
-  font-size: 20px;
-  font-family: Verdana, Helvetica, sans-serif;
-
-  width: 85vh;
-
-  position: absolute;
-  right: 10%;
-  top: 5%;
-}
-
 .rachel-text {
   color: black;
   font-size: 18px;
@@ -160,4 +176,170 @@
   position: absolute;
   right: 10%;
   top: 5%;
+}
+
+.gladys-btn {
+  background-color: #6734df;
+  border: none;
+  color: white;
+
+  border-radius: 40px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: Verdana, Helvetica, sans-serif;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+
+  bottom: 5%;
+  right: 10%;
+}
+
+.gladys-btn:hover {
+  background-color: #3e1b8f;
+}
+
+.gladys-img {
+  width: 60vh;
+  position: absolute;
+  left: 10%;
+  bottom: 5%;
+}
+
+.gladys-bgimage {
+  background: url("./img/space.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gladys-text {
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Helvetica, sans-serif;
+
+  width: 100vh;
+
+  position: absolute;
+  right: 10%;
+  top: 5%;
+}
+
+/* GRETA */
+.greta-btn {
+  background-color: #77f302;
+  border: none;
+  color: black;
+
+  border-radius: 40px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: Verdana, Helvetica, sans-serif;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+
+  bottom: 5%;
+  right: 10%;
+}
+
+.greta-btn:hover {
+  background-color: #50960e;
+}
+
+.greta-img {
+  width: 70vh;
+  position: absolute;
+  left: 10%;
+  bottom: 5%;
+}
+
+.greta-bgimage {
+  background: url("./img/greta_bg.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.greta-text {
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Helvetica, sans-serif;
+
+  width: 100vh;
+
+  position: absolute;
+  right: 10%;
+  top: 5%;
+}
+
+/*STORY BUTTONS*/
+.storyrachel-btn {
+  background-color: transparent;
+  border: black;
+
+  border-radius: 40px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: Verdana, Helvetica, sans-serif;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+
+  top: 22vh;
+  right: 68vh;
+
+  /* 
+  STRAW
+  bottom: 42vh;
+  right: 42vh; */
+}
+
+.storygreta-btn {
+  background-color: transparent;
+  border: black;
+
+  border-radius: 40px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: Verdana, Helvetica, sans-serif;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+
+  bottom: 33vh;
+  left: 80vh;
+}
+
+.storygladys-btn {
+  background-color: transparent;
+  border: black;
+
+  border-radius: 40px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: Verdana, Helvetica, sans-serif;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+
+  bottom: 20vh;
+  right: 40vh;
 }
