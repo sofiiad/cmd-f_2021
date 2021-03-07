@@ -5,6 +5,8 @@ Sabrina Chan: Content Creator
 
 Check out our project on [Devpost](https://devpost.com/software/climate-her-story)!
 
+”You cannot protect the environment unless you empower people, you inform them, and you help them understand that these resources are their own, that they must protect them” - Wangari Maathai
+
 ## Inspiration
 This project is very near to our heart as two women of color in STEM. We understand the hurdles faced by our sisters before us and we want to celebrate and uplift the voices of these amazing and strong women who might not be so well known. Throughout the creation of our project, we learned about so many women and inventions we take for granted. Furthermore, climate change is an important problem that will impact every and all humans. We wanted to sensitize people in a fun interactive way that is packed with information while still being accessible. This quote by Wangari Maathai recaps our purpose: ” You cannot protect the environment unless you empower people, you inform them, and you help them understand that these resources are their own, that they must protect them”
 
