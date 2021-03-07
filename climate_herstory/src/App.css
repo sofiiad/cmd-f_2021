@@ -53,6 +53,14 @@
   background-size: cover;
 }
 
+.thanks-bgimage {
+  background: url("./img/wallherstory.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .rachel-bgimage {
   background: url("./img/Rachel_bg.png");
   height: 100vh;
@@ -128,6 +136,32 @@
 
   bottom: 5%;
   right: 10%;
+}
+
+.thanks-btn {
+  background-color: #4e3b33;
+  border: none;
+  color: white;
+
+  border-radius: 40px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: Verdana, Helvetica, sans-serif;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+
+  bottom: 5%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.thanks-btn:hover {
+  background-color: #342722;
 }
 
 .ammal-text {
@@ -271,7 +305,131 @@
 
 .greta-text {
   color: white;
+  font-size: 3vh;
+  font-family: Verdana, Helvetica, sans-serif;
+
+  width: 100vh;
+
+  position: absolute;
+  right: 10%;
+  top: 5%;
+}
+
+/* ISATOU */
+.isatou-btn {
+  background-color: #f04755;
+  border: none;
+  color: white;
+
+  border-radius: 40px;
+  width: 200px;
+  height: 50px;
   font-size: 20px;
+  font-family: Verdana, Helvetica, sans-serif;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+
+  bottom: 5%;
+  right: 10%;
+}
+
+.isatou-btn:hover {
+  background-color: #b10d1b;
+}
+
+.isatou-img {
+  width: 70vh;
+  position: absolute;
+  left: 10%;
+  bottom: 5%;
+}
+
+.isatou-bgimage {
+  background: url("./img/pinkleaf.png");
+  height: 100vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.isatou-text {
+  color: black;
+  font-size: 2.7vh;
+  font-family: Verdana, Helvetica, sans-serif;
+
+  width: 100vh;
+
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+/* DEFORESTATION */
+.deforestation-btn {
+  background-color: #0272f3;
+  border: none;
+  color: white;
+
+  border-radius: 40px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: Verdana, Helvetica, sans-serif;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+
+  bottom: 5%;
+  right: 10%;
+}
+
+.deforestation-btn:hover {
+  background-color: #0f519c;
+}
+
+.berta-img {
+  width: 70vh;
+  position: absolute;
+  left: 10%;
+  bottom: 5%;
+}
+
+.wangari-img {
+  width: 70vh;
+  position: absolute;
+  left: 10%;
+  bottom: 55%;
+}
+
+.deforestation-bgimage {
+  background: url("./img/lake.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.berta-text {
+  color: white;
+  font-size: 3vh;
+  font-family: Verdana, Helvetica, sans-serif;
+
+  width: 100vh;
+
+  position: absolute;
+  right: 10%;
+  top: 30%;
+}
+
+.wangari-text {
+  color: white;
+  font-size: 3vh;
   font-family: Verdana, Helvetica, sans-serif;
 
   width: 100vh;
@@ -299,11 +457,6 @@
 
   top: 22vh;
   right: 68vh;
-
-  /* 
-  STRAW
-  bottom: 42vh;
-  right: 42vh; */
 }
 
 .storygreta-btn {
@@ -321,7 +474,7 @@
   display: inline-block;
   position: absolute;
 
-  bottom: 33vh;
+  bottom: 37vh;
   left: 80vh;
 }
 
@@ -342,4 +495,54 @@
 
   bottom: 20vh;
   right: 40vh;
+}
+
+.storyisatou-btn {
+  background-color: transparent;
+  border: black;
+
+  border-radius: 40px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: Verdana, Helvetica, sans-serif;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+
+  bottom: 42vh;
+  right: 42vh;
+}
+
+.storydeforestation-btn {
+  background-color: transparent;
+  border: black;
+
+  border-radius: 40px;
+  width: 100px;
+  height: 200px;
+  font-size: 20px;
+  font-family: Verdana, Helvetica, sans-serif;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+
+  bottom: 12vh;
+  left: 55vh;
+}
+
+.story-text {
+  color: rgb(105, 3, 3);
+  font-size: 3vh;
+  font-family: Verdana, Helvetica, sans-serif;
+
+  width: 150vh;
+
+  position: absolute;
+  left: 25%;
+  top: 10%;
 }

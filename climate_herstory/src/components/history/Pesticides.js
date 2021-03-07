@@ -14,10 +14,10 @@ export default function Pesticides() {
     //Setting background image
     <div className="container-fluid rachel-bgimage">
       <img className="woman-img" src={rachel} alt="Rachel Image"/>
-      <Typing className="rachel-text">
+      <Typing className="rachel-text" speed={5}>
               <span>
                   Hi all, my name is Rachel Carson and I am an American marine biologist and conservationist. 
-                  I am best known for my book “Silent Spring” which highlighted the dangers of synthetic pesticides to the environment. 
+                  I am best known for my book “Silent Spring”, published in 1962,  which highlighted the dangers of synthetic pesticides to the environment. 
                   I raised concerns about the chemical Dichlorodiphenyltrichloroethane, also known as DDT, and how it is toxic to the environment. 
                    
                   Experimental research on DDT is known to cause effects on the liver, kidney and nervous system of mice, rats and dogs. 

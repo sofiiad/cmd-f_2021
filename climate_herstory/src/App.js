@@ -15,6 +15,9 @@ import Intro from './components/Intro';
 import GPS from './components/history/GPS';
 import Pesticides from './components/history/Pesticides';
 import Steak from './components/history/Steak';
+import Deforestation from './components/history/Deforestation';
+import Plastic from './components/history/Plastic';
+import Thanks from './components/Thanks';
 //Handling path routes
 function App() {
   // const routeResult = useRoutes(routes)
@@ -40,6 +43,15 @@ function App() {
         </Route>
         <Route path="/greta">
             <Steak />
+        </Route>
+        <Route path="/bertawangari">
+            <Deforestation />
+        </Route>
+        <Route path="/isatou">
+            <Plastic />
+        </Route>
+        <Route path="/thanks">
+            <Thanks />
         </Route>
         </Switch>
         </Router>
